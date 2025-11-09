@@ -17,17 +17,17 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-10">
           <a
-            href="#home"
+            href="#Accueil"
             className="relative text-white/80 transition duration-300 hover:text-purple group"
           >
-            <span>Home</span>
+            <span>Accueil</span>
             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="#about"
+            href="#About"
             className="relative text-white/80 transition duration-300 hover:text-purple group"
           >
-            <span>About</span>
+            <span>A propos</span>
             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
