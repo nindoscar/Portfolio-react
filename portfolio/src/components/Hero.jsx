@@ -1,13 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {assets} from '../assets/assets'
-import profile from '../assets/profile.avif'
+import profileImg from '../assets/profile.avif'
 const Hero = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
+      viewport={{onece: true}}
       id="home"
       className="min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a]"
     >
@@ -55,9 +56,8 @@ const Hero = () => {
                   
                 }
                 className="relative rounded-full w-64 md:w-80 md:h-80 object-cover z-10 animate-float"
-                src="{assets.profile}" alt="Profile" />
+                src={profileImg} alt="Profile" />
             </div>
-
           </div>
         </div>
       </div>
