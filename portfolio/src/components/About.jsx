@@ -60,13 +60,13 @@ const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {
                     aboutInfo.map((data, index)=>(
-                      <div key={index} className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-tranlate-y-2 cursor-pointer">
+                      <div key={index} className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
                         <div className="text-purple text-4xl mb-4">
-                          <data-icon/> 
+                          <data.icon/> 
 
                         </div>
                         <h3 className="text-xl font-semibold">{data.title}</h3>
-                        <p>{data.description}</p>
+                        <p className="text-gray-400">{data.description}</p>
                       </div>
 
                     ))
