@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {assets} from '../assets/assets'
-import profileImg from '../assets/profile.avif'
+// import profileImg from '../assets/profile.avif'
+import profileImg from '../assets/profile01.jpg'
 const Hero = () => {
   return (
     <motion.div

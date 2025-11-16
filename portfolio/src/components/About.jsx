@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profileImg from "../assets/profile.avif";
+// import profileImg from "../assets/profile.avif";
 import { aboutInfo } from "../assets/assets";
 import { div } from "framer-motion/client";
+import profileImg from '../assets/profile01.jpg'
 
 const About = () => {
   return (
