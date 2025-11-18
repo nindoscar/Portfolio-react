@@ -33,7 +33,7 @@ const Hero = () => {
               className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
             >
               Mes Projets
-            </a>
+            </a> 
             <a
               href="#contact"
               className="px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 transition decoration-purple-300"

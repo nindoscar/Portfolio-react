@@ -7,6 +7,7 @@ import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
+import presentation from '../components/presentation';
 
 
 export const assets = {
@@ -17,20 +18,20 @@ export const assets = {
 export const aboutInfo = [
     {
       icon: FaLightbulb,
-      title: 'Innovative',
-      description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
+      title: 'Innovation',
+      description: "J'adore créer des solutions uniques à des problèmes complexes à l'aide de technologies de pointe.",
       color: 'text-purple'
     },
     {
       icon: FaPaintBrush,
-      title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.',
+      title: 'Rigueur',
+      description: "Une méthodologie sans faille et un sens aigu du détail sont les piliers de la qualité et de la fiabilité de toutes mes livraisons.",
       color: 'text-pink'
     },
     {
       icon: FaCode,
-      title: 'Clean Code',
-      description: 'I write maintainable, efficient code following best practices and modern patterns.',
+      title: 'Code épuré',
+      description: "J'écris du code facile à maintenir et efficace en suivant les meilleures pratiques et les modèles modernes.",
       color: 'text-blue'
     }
   ];
@@ -39,40 +40,40 @@ export const aboutInfo = [
 
 export const skills = [
   {
-    title: 'Frontend Development',
+    title: 'Développeur Front-end ',
     icon: FaReact,
-    description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
+    description: "Développement front-end Création d'interfaces utilisateur réactives et interactives à l'aide de frameworks modernes.",
+    tags: ['React', 'Vue.js', 'TypeScript']
   },
   {
-    title: 'Backend Development',
+    title: 'Développeur Backend',
     icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'Django', 'Laravel']
+    description: "Création d'applications côté serveur robustes et d'API RESTful.",
+    tags: ['Node.js', 'Express', 'Laravel', "Flask"]
   },
   {
     title: 'Database Management',
     icon: FaDatabase,
-    description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
+    description: 'Conception et optimisation de bases de données pour améliorer les performances et la scalabilité.',
+    tags: ['MongoDB', 'PostgreSQL', 'MySQL']
   },
   {
-    title: 'Mobile Development',
+    title: 'Développeur Mobile',
     icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
-    tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
+    description: "Création d'applications mobiles multiplateformes à l'aide d'outils modernes.",
+    tags: ['React Native', 'Flutter']
   },
   {
     title: 'Cloud & DevOps',
     icon: FaCloud,
-    description: 'Deploying and managing applications in cloud environments.',
-    tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
+    description: "Déploiement et gestion d'applications dans des environnements cloud.",
+    tags: ['Docker']
   },
   {
-    title: 'Tools & Technologies',
+    title: 'Outils et technologies',
     icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+    description: "Outils et technologies essentiels que j'utilise dans mon processus de développement.",
+    tags: ['Git & GitHub', 'Figma']
   }
 ];
 
@@ -80,16 +81,16 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    title: "Free Add",
+    description: "une application web dynamique, entièrement développée sous Laravel,",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    tech: ["Laravel", "MySql"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "#",
     code: "#",
   },
   {
-    title: "Task Management App",
+    title: "Burger ",
     description: "A productivity application with drag-and-drop functionality and real-time updates.",
     image: projectImg2,
     tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
@@ -98,67 +99,46 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Fitness Tracker",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
-    image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
-    icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    title: "Portfolio ",
+    description: "Ce site web a été entièrement conçu et développé en ReactJS afin d'assurer une expérience utilisateur (UX) rapide et fluid",
     image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
-    icons: [FaReact, FaCloud],
-    demo: "#",
+    tech: ["React.Js"],
+    icons: [FaReact,],
+    demo: "#home",
     code: "#",
   },
-  {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  }
 ];
 
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    role: "Dévoloppeur Full Stack junior",
+    company: "We.code ",
+    duration: "2025",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+      "Formé à we.code by Epitech, j’ai réalisé plus de 28 projets en développement web et mobile et développé des compétences en leadership et gestion de projet. Deux fois chef de projet, j’ai dirigé des équipes et mené des projets complets jusqu’à leur présentation finale.",
     color: "purple"
   },
   {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
+    role: "Correspondant fichier",
+    company: "Institut Technique Secondaire Professionnel ",
+    duration: "2018 - 2024",
     description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+      "Correspondant Fichier à l’Institut Technique Secondaire Professionnel et Technique, où j’ai géré les données élèves et l’archivage numérique avec rigueur et précision.",
     color: "pink"
   },
   {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
+    role: "Stageaire",
+    company: "Risque Informatique",
+    duration: "2016 - 2017",
     description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+      "Mise en place d’une organisation logique des documents pour optimiser leur recherche et leur gestion, avec numérisation et archivage électronique,Organisation et classement des fichiers dans des stockages locaux ou cloud, dans le cadre d’un projet réalisé en WinDev.",
     color: "blue"
   }
+
 ];
+  export const presentations = [
+    {
+      profil: ""
+    }
+  ]

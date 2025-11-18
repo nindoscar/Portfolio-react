@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="fixed w-full z-50 bg-dark-100/99 backdrop-blur-sm py-4 px-8 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <a href="#">
+          <a href="#home">
             Oscar
             <span className="text-purple"> Nindebahi </span>
             <div className="w-4 h-4 bg-purple rounded-full"></div>
@@ -17,21 +17,21 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-10">
           <a
-            href="#Accueil"
+            href="#home"
             className="relative text-white/80 transition duration-300 hover:text-purple group"
           >
             <span>Accueil</span>
             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="#About"
+            href="#about"
             className="relative text-white/80 transition duration-300 hover:text-purple group"
           >
             <span>A propos</span>
             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="#Skills"
+            href="#skills"
             className="relative text-white/80 transition duration-300 hover:text-purple group"
           >
             <span>Skills</span>
