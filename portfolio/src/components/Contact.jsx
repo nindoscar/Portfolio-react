@@ -93,7 +93,7 @@ const Contact = () => {
               <h3 className="text-lg font-semibold mb-4">Suivez moi</h3>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="#https://github.com/nindoscar"
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:text-white transition duration-300"
                 >
                   <FaGithub />

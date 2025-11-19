@@ -1,15 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {assets} from '../assets/assets'
+import { assets } from "../assets/assets";
 // import profileImg from '../assets/profile.avif'
-import profileImg from '../assets/profile01.jpg'
+import profileImg from "../assets/profile01.jpg";
+import cvFile from '../assets/Oscar_NINDEBAHI_CV.pdf'
 const Hero = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      viewport={{onece: true}}
+      viewport={{ onece: true }}
       id="home"
       className="min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a]"
     >
@@ -20,7 +21,7 @@ const Hero = () => {
           </h1>
           <h2
             className="text-2xl md:text-4xl font-semibold mb-6
-          typewriter"
+          "
           >
             Dévelopeur Full Stack
           </h2>
@@ -33,31 +34,38 @@ const Hero = () => {
               className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
             >
               Mes Projets
-            </a> 
+            </a>
             <a
+              href={cvFile} 
+              download="Oscar_NINDEBAHI_CV"
+              className="px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 transition decoration-purple-300"
+            >
+              Télécharge mon CV
+            </a>
+            {/* <a
               href="#contact"
               className="px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 transition decoration-purple-300"
             >
               Contacter Moi
-            </a>
+            </a> */}
           </div>
         </div>
         {/* image  */}
         <div className="md:w-1/2 flex justify-center ">
           <div className="relative w-64 h-64 md:w-80 md:h-80">
             <div className="basolute inset-0 rounded-full bg-gradient-to-r from-purple to-pink aminates-plues-slow opacity-70">
-                <motion.img 
-                animate={{y:[0, -20, 0]}}
+              <motion.img
+                animate={{ y: [0, -20, 0] }}
                 transition={{
                   duration: 4,
                   repeat: Infinity,
                   repeatType: "loop",
-                  ease : "easeInOut"
-                }
-                  
-                }
+                  ease: "easeInOut",
+                }}
                 className="relative rounded-full w-64 md:w-80 md:h-80 object-cover z-10 animate-float"
-                src={profileImg} alt="Profile" />
+                src={profileImg}
+                alt="Profile"
+              />
             </div>
           </div>
         </div>
