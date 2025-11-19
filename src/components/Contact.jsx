@@ -17,7 +17,7 @@ const Contact = () => {
           Contatez <span className="text-purple">Moi</span>
         </h2>
         <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          {/* je suis disponible au 0102987587/0749316014 */}
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* contactez-moi */}
