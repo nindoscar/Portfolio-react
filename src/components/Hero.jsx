@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
 // import profileImg from '../assets/profile.avif'
-import profileImg from "../assets/profile01.jpg";
+import profileImg from "../assets/profile001.png";
 import cvFile from '../assets/Oscar_NINDEBAHI_CV.pdf'
 const Hero = () => {
   return (
