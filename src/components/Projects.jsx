@@ -30,7 +30,7 @@ const Projects = () => {
         </div>
         <div className="text-center mt-12">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/oscar-nindebahi-347b17372/" 
             className="inline-flex items-center px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 transition duration-300"
           >
             <span>Voir la fréquence des projets realisé à EPITECH</span>

@@ -93,18 +93,18 @@ const Contact = () => {
               <h3 className="text-lg font-semibold mb-4">Suivez moi</h3>
               <div className="flex space-x-4">
                 <a
-                  href="#https://github.com/nindoscar"
+                  href="https://github.com/nindoscar" 
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:text-white transition duration-300"
                 >
                   <FaGithub />
                 </a>
                 <a
-                  href="#https://www.linkedin.com/in/oscar-nindebahi-347b17372/"
+                  href= "https://www.linkedin.com/in/oscar-nindebahi-347b17372/"
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:text-white transition duration-300"
                 >
                   <FaLinkedin />
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:text-white transition duration-300"
                 >
@@ -115,7 +115,7 @@ const Contact = () => {
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:text-white transition duration-300"
                 >
                   <FaFacebook/>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
